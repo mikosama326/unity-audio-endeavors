@@ -1,0 +1,70 @@
+﻿  AudioPluginUtil.cpp
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(9,1): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(18,1): warning C4996:  'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1469): message :  see declaration of 'vsprintf'
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(29,18): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(96): message :  see reference to function template instantiation 'void FFTProcess<double>(UnityComplexNumber *,int,bool)' being compiled
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(40,36): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(53,36): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(61,32): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(76,26): warning C4244:  '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(76,26): warning C4244:         with
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(76,26): warning C4244:         [
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(76,26): warning C4244:             T=double
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(76,26): warning C4244:         ]
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(76,26): warning C4244:         and
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(76,26): warning C4244:         [
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(76,26): warning C4244:             T=float
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(76,26): warning C4244:         ]
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(84): message :  see reference to function template instantiation 'void UnityComplexNumberT<float>::Sub<float,T,float>(const UnityComplexNumberT<float> &,const UnityComplexNumberT<T> &,UnityComplexNumberT<float> &)' being compiled
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(84): message :         with
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(84): message :         [
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(84): message :             T=double
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(84): message :         ]
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(84): message :  see reference to function template instantiation 'void UnityComplexNumberT<float>::Sub<float,T,float>(const UnityComplexNumberT<float> &,const UnityComplexNumberT<T> &,UnityComplexNumberT<float> &)' being compiled
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(84): message :         with
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(84): message :         [
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(84): message :             T=double
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(84): message :         ]
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(96): message :  see reference to function template instantiation 'void FFTProcess<double>(UnityComplexNumber *,int,bool)' being compiled
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(77,26): warning C4244:  '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(77,26): warning C4244:         with
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(77,26): warning C4244:         [
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(77,26): warning C4244:             T=double
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(77,26): warning C4244:         ]
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(77,26): warning C4244:         and
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(77,26): warning C4244:         [
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(77,26): warning C4244:             T=float
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(77,26): warning C4244:         ]
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(69,26): warning C4244:  '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(69,26): warning C4244:         with
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(69,26): warning C4244:         [
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(69,26): warning C4244:             T=double
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(69,26): warning C4244:         ]
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(69,26): warning C4244:         and
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(69,26): warning C4244:         [
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(69,26): warning C4244:             T=float
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(69,26): warning C4244:         ]
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(85): message :  see reference to function template instantiation 'void UnityComplexNumberT<float>::Add<float,T,float>(const UnityComplexNumberT<float> &,const UnityComplexNumberT<T> &,UnityComplexNumberT<float> &)' being compiled
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(85): message :         with
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(85): message :         [
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(85): message :             T=double
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(85): message :         ]
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(85): message :  see reference to function template instantiation 'void UnityComplexNumberT<float>::Add<float,T,float>(const UnityComplexNumberT<float> &,const UnityComplexNumberT<T> &,UnityComplexNumberT<float> &)' being compiled
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(85): message :         with
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(85): message :         [
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(85): message :             T=double
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.cpp(85): message :         ]
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(70,26): warning C4244:  '=': conversion from 'T' to 'T', possible loss of data
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(70,26): warning C4244:         with
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(70,26): warning C4244:         [
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(70,26): warning C4244:             T=double
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(70,26): warning C4244:         ]
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(70,26): warning C4244:         and
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(70,26): warning C4244:         [
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(70,26): warning C4244:             T=float
+C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\AudioPluginUtil.h(70,26): warning C4244:         ]
+  AudioPluginDemo.vcxproj -> C:\Users\TheDarkMiko\Desktop\Unity-Technologies-nativeaudioplugins-6b2fe943107f\NativeCode\VisualStudio\build\Debug\AudioPluginDemo.dll
+  A subdirectory or file ..\..\Assets\Plugins\x86_64 already exists.
+          1 file(s) copied.
